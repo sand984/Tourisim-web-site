@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Assignment-11</title>
+<style>
+    *{
+height: 0px;
+ width: 0px;
+}
+
+body{
+ background-image: url('https://wallpapercave.com/wp/0Xf6Hpa.jpg');
+}
+.sun{
+ border: 3px solid rgb(99, 68, 68);
+ height: 300px;
+ width: 300px;
+ border-radius: 50%;
+ position: absolute;
+ background-image: url('https://d3i6fh83elv35t.cloudfront.net/newshour/app/uploads/2015/11/NASAsun-1024x576.jpg');
+ background-position: center;
+ box-shadow: 100px 50px 300px darkred;
+ margin-left: -100px;
+ margin-top: -50px;
+}
+.sun:hover{
+ transform: rotate(45deg);
+ transition: all 1s;
+ box-shadow: 100px 100px 300px darkred;
+}
+
+.common{
+ border: 3px solid black;
+ height: 200px;
+ width: 200px;
+ border-radius: 50%;
+ position: absolute;
+ margin: 150px;
+ margin-top: 100px;
+ margin-left: 400px;
+ background-position: center;
+ box-shadow: 10px 5px 20px black;
+}
+
+.planet1{
+ background-image: url("https://th.bing.com/th/id/OIP.Mjcjzxajoxq-4dWqP5Iy3gAAAA?rs=1&pid=ImgDetMain");
+ z-index:8;
+
+}
+.planet2{
+ background-image: url("https://svs.gsfc.nasa.gov/vis/a010000/a013600/a013640/venus_thumb.jpg");
+ z-index:7;
+ left: 100px;
+ top: 50px;
+}
+.planet3{
+ background-image: url("https://th.bing.com/th/id/R.58084227945dcb2672841631e2187d26?rik=owDbq2iScTtWiA&riu=http%3a%2f%2fupload.wikimedia.org%2fwikipedia%2fcommons%2f7%2f7b%2fEarth_Western_Hemisphere.jpg&ehk=S7Nkb02kJT1tIJrwc4fzw7h%2fnyin0DfyL8hV%2bRKJ1gY%3d&risl=&pid=ImgRaw&r=0");
+ z-index: 6;
+ left: 200px;
+ top: 100px;
+
+}
+.planet4{
+ background-image: url("https://th.bing.com/th/id/OIP.D-6Ug_dvM8MeDg6HF_QbLwHaHa?rs=1&pid=ImgDetMain");
+ z-index: 5;
+ left: 300px;
+ top: 150px;
+}
+.planet5{
+ background-image: url("https://i.natgeofe.com/k/7c7e4173-5ad3-4ef7-8252-354de21430db/jupiter_4x3.jpg");
+ z-index: 4;
+ left: 400px;
+ top: 200px;
+}
+.planet6{
+ background-image: url("https://th.bing.com/th/id/OIP.8rmJnBWJxwcFqVQPPm463gHaFL?rs=1&pid=ImgDetMain");
+ z-index: 3;
+ left: 500px;
+ top: 250px;
+}
+.planet7{
+ background-image: url("https://static.independent.co.uk/2020/12/23/11/uranus.png");
+ z-index: 2;
+ left: 600px;
+ top: 300px;
+}
+.planet8{
+ background-image: url("https://th.bing.com/th/id/OIP.eFiXTN7JIbuLqg6mdN0XygHaE8?rs=1&pid=ImgDetMain");
+ z-index: 1;
+ left: 700px;
+ top: 350px;
+}
+.common:hover{
+ transform: rotate(45deg);
+ transition: all 1s;
+}
+</style>
+</head>
+<body>
+ <div class="main">
+ <div class="sun"></div>
+ <div class="common planet1"></div>
+ <div class="common planet2"></div>
+ <div class="common planet3"></div>
+ <div class="common planet4"></div>
+ <div class="common planet5"></div>
+ <div class="common planet6"></div>
+ <div class="common planet7"></div>
+ <div class="common planet8"></div>
+
+
+ </div>
+</body>
+</html>
